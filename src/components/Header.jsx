@@ -1,8 +1,7 @@
-// src/components/Header.jsx
 import React from "react";
 
 const Header = () => {
-  return <h1>My Vite React App</h1>;
+  return <h1>Cloud Computing Services 2 Project</h1>;
 };
 
 export default Header;

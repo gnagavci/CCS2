@@ -4,6 +4,6 @@ import Header from "../Header";
 
 test("renders the header text", () => {
   render(<Header />);
-  const headerElement = screen.getByText(/My Vite React App/i);
+  const headerElement = screen.getByText(/Cloud Computing Services 2 Project/i);
   expect(headerElement).toBeInTheDocument();
 });

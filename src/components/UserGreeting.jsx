@@ -1,4 +1,3 @@
-// src/components/UserGreeting.jsx
 import React, { useState } from "react";
 
 const UserGreeting = () => {
@@ -10,7 +9,7 @@ const UserGreeting = () => {
     if (name.trim()) {
       setGreeting(`Hello, ${name}!`);
     } else {
-      setGreeting(""); // Clear the greeting if the input is empty
+      setGreeting("");
     }
   };
 
