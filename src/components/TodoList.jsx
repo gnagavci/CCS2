@@ -8,6 +8,7 @@ const TodoList = () => {
     if (input.trim()) {
       setTodos([...todos, input]);
       setInput("");
+      //only add a todo if it's not an empty string
     }
   };
 

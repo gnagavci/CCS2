@@ -1,12 +1,12 @@
-// src/components/UserGreeting.test.jsx
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import UserGreeting from "../UserGreeting";
+//import the needed testing libraries and the UserGreeting component to test
 
 test("displays greeting when form is submitted", () => {
   render(<UserGreeting />);
 
-  // Enter a name
+  // Enter a name and click submit
   const input = screen.getByPlaceholderText(/Enter your name/i);
   const submitButton = screen.getByRole("button", { name: /Greet Me/i });
 

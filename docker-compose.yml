@@ -1,8 +1,8 @@
-services:
-  app:
-    build: .
-    volumes:
-      - .:/app
-      - /app/node_modules
-    working_dir: /app
-    command: npm run test
+services: #Define the services (containers) to run
+  app: #Name of the service
+    build: . # Builds the Docker image using the Dockerfile in the current directory (.)
+    volumes: # Mounts directories from the host machine to the container
+      - .:/app # Mounts the current directory (.) to the /app directory in the container
+      - /app/node_modules # Prevents the node_modules directory from being overwritten by the volume mount
+    working_dir: /app # Sets the working directory inside the container to /app
+    command: npm run test # Runs the command `npm run test` when the container starts
