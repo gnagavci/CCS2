@@ -8,9 +8,7 @@ const Counter = () => {
 
   return (
     <>
-      <p>
-        <strong>Count:</strong> {count}
-      </p>
+      <p style={{ fontWeight: "bold" }}>Count: {count}</p>
       <button className="increment" onClick={increment}>
         Increment
       </button>
