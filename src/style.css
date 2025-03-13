@@ -174,3 +174,20 @@ form button {
 .toggle-btn.on:hover {
   background-color: #104e17;
 }
+
+.todo-list .delete-button {
+  background-color: #7e1a1a;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 1em;
+}
+
+.todo-list .delete-button:hover {
+  background-color: #a33e3e;
+}
